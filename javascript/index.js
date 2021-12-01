@@ -94,3 +94,8 @@ btnRightElement.addEventListener('click', () => {
     printSplit();
   }
 });
+
+//s
+this.interValid = setInterval( () =>{
+  printTime();
+},1000);

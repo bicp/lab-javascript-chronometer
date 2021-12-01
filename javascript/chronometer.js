@@ -40,7 +40,9 @@ class Chronometer {
   start(callback) {
     // (printTime, /* bônus => */ printMilliseconds)
     this.intervalId = setInterval(() => {
-      this.currentTime++;
+        this.currentTime++;
+      //console.log(this.currentTime);
+      //printTime(this.currentTime);
       // if (printTime) printTime();
     }, 1000);
 
